@@ -1,1 +1,2 @@
-print('Your name')
+print('Give me two numbers:')
+
