@@ -14,7 +14,7 @@ for i in range(100000):
     pensize(randint(1,10))
     begin_fill()
 
-    circle(randint(10,200), steps=randint(4,10), extent=randint(45,360))
+    circle(randint(10,200), steps=randint(2,10), extent=randint(45,360))
     end_fill()
     penup()
     setposition(randint(-400,400), randint(-400,400))
