@@ -1,2 +1,1 @@
-A quick little sentence.
-Sentence number 2.im writing from python!im writing from python!Im writing from python.Im writing from python.Im writing from python. 
+Im writing from python.
