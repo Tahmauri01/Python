@@ -12,8 +12,10 @@ class Person:
         print("Hi, my name is " + self.name)
 
 
+class Student(Person):
+    role = 'Student'
 
-tahmauri = Person("Tahmauri", 17)
+tahmauri = Student("Tahmauri", 17)
 print(tahmauri.species)
 tahmauri.hello()
 
@@ -21,10 +23,21 @@ print(tahmauri.name)
 print(tahmauri.age)
 tahmauri.hi()
 
-saint = Person("Saint", 17)
+saint = Student("Saint", 17)
 print(saint.species)
 saint.hello()
 
 print(saint.name)
 print(saint.age)
 saint.hi()
+
+class Teacher(Person):
+    role = 'Teacher'
+    def hi(self):
+        print("Hi, my name is Mr." + self.name)
+
+
+forlenza = Teacher("Forlenza", 184)
+print(forlenza.role)
+
+forlenza.hi()
